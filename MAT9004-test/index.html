@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+
+    <title>MAT9004 Test Practice</title>
+
+    <style>
+      html {
+        font-family: sans-serif;
+        min-height: 100%;
+        position: relative;
+      }
+
+      body {
+        width: 80%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+      
+      header {
+        text-align: center;
+        padding: 3px;
+        background-color: DarkSalmon;
+        color: white;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      footer {
+        background-color: DarkSalmon;
+        color: white;
+        padding: 3px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+}
+
+      .wrap-flex {
+  display: flex;
+  align-items: baseline; /* baseline | center | stretch */
+  justify-content: space-between;
+}
+
+#content-wrap {
+  padding-bottom: 100px;    /* Footer height */
+}
+
+      table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+button {
+  padding: 10px 40px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+    </style>
+
+<script src="https://fred-wang.github.io/TeXZilla/TeXZilla-min.js"></script>
+<script src="https://fred-wang.github.io/TeXZilla/examples/customElement.js"></script>
+<script src="https://fred-wang.github.io/mathml-warning.js/mpadded-min.js"></script>
+
+<!--https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/-->
+
+  </head>
+  
+  <header>
+    <p>Rebecca J Young © 2024. This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/4.0/au/">CC BY-SA 4.0 AU</a>.</p>
+  </header> 
+  
+  <body>
+    <script type="module" src="main.js"></script>
+
+    <div id="page-container">
+      <div id="content-wrap">
+    <h1>MAT9004 Test Practice</h1>
+    <p>
+      This test mimics the practice test for MAT9004 in style and level of difficulty.
+      The topics covered reflect the topics taught in MAT9004 lectures, tutorials, and practice test.
+    </p>
+    <!--
+    <p>Click a section heading to see the list of topics assessed in that section.</p>
+    -->
+    <p>
+      This tool is not affiliated with MAT9004 and has been built by someone who has not seen the final exam.
+      It should not be used as your primary study tool.
+    </p>
+
+    <button id="genTest">Generate Test</button>
+    <button id="mathSupport">Additional support: OFF</button>
+
+    <hr>
+
+    <div id="test">
+      <p>Click button to generate a new test.</p>
+    
+
+</div>
+
+  <hr>
+  <footer>
+    <p>If you found this resource helpful, consider <a href="buymeacoffee.com/bytesizedtutoring"}>buying me a coffee</a>.</p>
+    <p>For more free resources, go to <a href="https://bytesizedtutoring.com"}>bytesizedtutoring.com</a></p>
+  </footer>
+    </div>
+  </body>
+</html>
