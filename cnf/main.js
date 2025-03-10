@@ -187,7 +187,7 @@ function checkClauseSize() {
 
 function createFirstClause() {
     let firstClauseInstructions = document.createElement("p");
-    firstClauseInstructions.textContent = "Write the literals for the first clause as you would if writing clauses in lexicographical order:";
+    firstClauseInstructions.textContent = "Using ~ to represent negation if needed, write the literals for the first clause as you would if writing clauses in lexicographical order:";
 
     firstClause.appendChild(firstClauseInstructions);
     firstClause.appendChild(document.createTextNode("("));
@@ -262,7 +262,7 @@ function checkFirstClause() {
 
 function buildExpression() {
     completeExpression.appendChild(quantifier.buildShownExpression());
-    completeExpression.appendChild(buildTruthTable(quantifier));
+    //completeExpression.appendChild(buildTruthTable(quantifier));
 }
 
 
