@@ -103,7 +103,9 @@ function createHelpClauseSize() {
     }
 
     if (quantifier.literalsNegated) {
-        help.appendChild(helpParagraph("Help info for 'at most' is in development."));
+        help.appendChild(helpParagraph("Conjunctive Normal Form is a conjunction of disjuctions."));
+        help.appendChild(helpParagraph("One way to get a conjuction of disjunctions is to negate a disjunction of conjunctions."));
+        help.appendChild(helpParagraph("How might you write something of the form: 'It is not true that this AND this are both true, nor this AND this are both true, nor...'?"))
     } else {
 
     help.appendChild(helpParagraph("We need to make our clauses just small enough that the perfect number of variables are missing."));
